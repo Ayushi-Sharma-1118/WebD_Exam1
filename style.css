@@ -1,0 +1,235 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+nav{
+    position: fixed;
+    top:0px;
+    width:100%;
+    height:65px;
+    background-color: black;
+    display:flex;
+}
+
+nav i{
+    color:aquamarine;
+    margin:15px 0px 15px 40px;
+    /* border:1px solid white; */
+}
+
+nav p{
+    color: aquamarine;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+nav div{
+    margin:auto;
+    /* border:1px solid white; */
+}
+
+nav ul li{
+    display: inline-block;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 19px ;
+    font-weight: 500;
+    padding:6px 10px;
+}
+
+nav button{
+    background-color: black;
+    border:1px solid aquamarine;
+    color:aquamarine;
+    font-size:13px;
+    width:150px;
+    height:40px;
+    position:absolute;
+    right:40px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    color:aquamarine;
+}
+
+nav button:hover{
+    background-color: aquamarine;
+    color:black;
+    font-size:15px;
+}
+
+.intro{
+    background-color: rgb(231, 221, 231);
+    width:90%;
+    margin:68px auto 10px auto;
+    height:70px;
+}
+
+.intro span{
+    display: block;
+    height:15px;
+    font-size: 20px;
+    font-weight: 700;
+    color:brown;
+    margin:20px;
+    border: 0px;
+}
+
+.intro p{
+    margin:20px;
+}
+
+.card_container{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    gap:10px;
+}
+
+.card{
+    height:300px;
+    border-radius: 10px;
+}
+
+.c1{
+    background-image:url(https://media.istockphoto.com/id/1368264124/photo/extreme-close-up-of-thrashing-emerald-ocean-waves.jpg?b=1&s=170667a&w=0&k=20&c=qha_PaU54cu9QCu1UTlORP4-sW0MqLGERkdFKmC06lI=);
+}
+
+.c2{
+    background-image:url(https://media.istockphoto.com/id/1093110112/photo/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-of-green-forest-with-pure.jpg?b=1&s=170667a&w=0&k=20&c=x6xAPpwGup_aUqJXUV66pw2Q-yQgBTklxsMDR93Dvbo=);
+}
+
+.c3{
+    background-image:url(https://media.istockphoto.com/id/1025158308/photo/majestic-giant-redwood-tree-scenery.jpg?b=1&s=170667a&w=0&k=20&c=Xl7SvJd_8XgHWzjWPoAXk89PifmdjASX8kDHxlhgLw4=);
+}
+
+.c4{
+    background-image:url(https://media.istockphoto.com/id/578306130/photo/ocean-sunset-rays.jpg?b=1&s=170667a&w=0&k=20&c=7P5DGm-QEuxYY4SIAgajOxHrX1_L9VZ26ki4CU8w9D4=);
+}
+
+.c5{
+    background-image:url(https://media.istockphoto.com/id/895454734/photo/beautiful-lotus-flower-on-the-water-in-a-park-close-up.jpg?b=1&s=170667a&w=0&k=20&c=Sji5ikDkPgmwqZkYHfAUpmtxUytmhdc9L9jIjEgQgDs=);
+}
+
+.c6{
+    background-image:url(https://media.istockphoto.com/id/157373207/photo/balanced-stones-on-a-pebble-beach-during-sunset.jpg?b=1&s=170667a&w=0&k=20&c=Kf2KkRDScwcCRsSb57QXyhMKueVICqQhhyR7wtSwUrU=);
+}
+
+.quote{
+    width:90%;
+    margin: 10px auto;
+    background-image: url(https://media.istockphoto.com/id/167762507/photo/rooftop-bar-in-india.jpg?s=612x612&w=0&k=20&c=odismeQ_N7bIV0sr7BOk9IlLkMkJrft2fOOH529jrCs=);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.card:hover{
+    background-image: url(https://media.istockphoto.com/id/1223085385/photo/black-white-circle-swirl-ring-pattern-vertigo-concentric-cyclone-abstract-lens-camera-body.jpg?b=1&s=170667a&w=0&k=20&c=JrB5F74L5YpwfhRldzDpYcZwBnQV0V1pt0Qxv-V0NJ0=);
+    transition: 1s;
+}
+
+.quote span{
+    display: block;
+    height:40px;
+    width:300px;
+    border:0px;
+    font-size: 25px;
+    font-weight: 600;
+    margin:20px 500px;
+    padding:10px 10px;
+    color:aquamarine;
+}
+
+.quote h1{
+    color:white;
+    width: 450px;
+    margin:20px 430px;
+    font-size: 38px;
+    word-spacing: 8px;
+}
+
+.quote p{
+    color:white;
+    margin:20px 430px;
+    align-items:justify;
+    justify-content: center;
+}
+
+.quote button{
+    display: block;
+    /* background-color:none; */
+    background-color: rgb(44, 85, 160);
+    border:1px solid aquamarine;
+    color:aquamarine;
+    font-size:13px;
+    width:150px;
+    height:40px;
+    margin:auto;
+    border-radius: 20px;
+}
+
+.quote button:hover{
+    background-color: aquamarine;
+    color:black;
+}
+
+.footer{
+    background-color: black;
+    width:90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height:300px;
+}
+
+.footer .title{
+    color:white;
+    font-size: 25px;
+    padding: 10px;;
+}
+
+.footer .one p{
+    color:white;
+    padding:10px;
+}
+
+.footer i{
+    color:aquamarine;
+    margin:10px;
+}
+
+.footer .two p{
+    color:white;
+    padding:10px;
+}
+
+.footer input{
+    display: block;
+    margin-top: 10px;
+    width:300px;
+    font-size: 25px;
+    border:1px solid aquamarine;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.footer button{
+    margin-top:10px;
+    width:200px;
+    font-size: 25px;
+    border:1px solid aquamarine;
+    border-radius: 20px;
+    background-color: black;
+    color: aquamarine;
+}
